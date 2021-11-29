@@ -1,5 +1,52 @@
 <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
 <div>
 	<h2>Exercise website</h2>
-	<p>The website is up and running. You can query data from its REST API on the following endpoints:</p>
+	<p>The website is up and running. You can query data from its REST API, where the following operations are supported. All <i>GET</i> requests will return the data in JSON format.</p>
+	<h3>Get list of all users</h3>
+	<p>Returns a list of all users with their usernames</p>
+	<table>
+		<tr>
+			<td>GET</td>
+			<td>/v1/users</td>
+		</tr>
+	</table>
+	<h4>Parameters</h4>
+	<p>None</p>
+	<h4>Responses</h4>
+	<table>
+		<tr>
+			<td>HTTP code 200</td>
+			<td>The list of all users with their usernames respectively. <a href="/sample_user.json">Sample response.</a></td>
+		</tr>
+		<tr>
+			<td>HTTP code 4xx, 5xx</td>
+			<td>A description of the error</td>
+		</tr>
+	</table>
+	<h3>Get the access level of a user</h3>
+	<p>Given a username returns that user's acces level on this site. Three authority values are possible: READ, WRITE, and ADMIN. All that applies will be returned.</p>
+	<table>
+		<tr>
+			<td>GET</td>
+			<td>/v1/accesslevels</td>
+		</tr>
+	</table>
+	<h4>Parameters</h4>
+	<table>
+		<tr>
+			<td>username</td>
+			<td>Required. The username of the user to be queried as a String</td>
+		</tr>
+	</table>
+	<h4>Responses</h4>
+	<table>
+		<tr>
+			<td>HTTP code 200</td>
+			<td>A JSON object with the username and all the access rights that user has. (e.g. in case of admin access level it will return ["READ", "WRITE", "ADMIN"]. <a href="/sample_user.json">Sample response.</a></td>
+		</tr>
+		<tr>
+			<td>HTTP code 4xx, 5xx</td>
+			<td>A description of the error</td>
+		</tr>
+	</table>
 </div>
