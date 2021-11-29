@@ -1,0 +1,212 @@
+[
+  {
+    "name": "Winifred Hancock",
+    "username": "whancock",
+    "access": ["READ"]
+  },
+  {
+    "name": "Atif Lugo",
+    "username": "alugo",
+    "access": ["READ"]
+  },
+  {
+    "name": "Sharon Quintero",
+    "username": "squintero",
+    "access": ["READ"]
+  },
+  {
+    "name": "Rhonda Chang",
+    "username": "rchang",
+    "access": ["READ"]
+  },
+  {
+    "name": "Dainton Powell",
+    "username": "dpowell",
+    "access": ["READ"]
+  },
+  {
+    "name": "Emilija Welsh",
+    "username": "ewelsh",
+    "access": ["READ"]
+  },
+  {
+    "name": "Yousif Cunningham",
+    "username": "ycunningham",
+    "access": ["READ"]
+  },
+  {
+    "name": "Yousef Sanderson",
+    "username": "ysanderson",
+    "access": ["READ"]
+  },
+  {
+    "name": "Charleigh Penn",
+    "username": "cpenn",
+    "access": ["READ"]
+  },
+  {
+    "name": "Iosif Trejo",
+    "username": "itrejo",
+    "access": ["READ"]
+  },
+  {
+    "name": "Iga Chen",
+    "username": "ichen",
+    "access": ["READ"]
+  },
+  {
+    "name": "Anwen Hester",
+    "username": "ahester",
+    "access": ["READ"]
+  },
+  {
+    "name": "Caius James",
+    "username": "cjames",
+    "access": ["READ"]
+  },
+  {
+    "name": "Talia Trevino",
+    "username": "ttrevino",
+    "access": ["READ"]
+  },
+  {
+    "name": "Luis Boyce",
+    "username": "lboyce",
+    "access": ["READ"]
+  },
+  {
+    "name": "Ami Rosas",
+    "username": "arosas",
+    "access": ["READ"]
+  },
+  {
+    "name": "Andrew Bostock",
+    "username": "abostock",
+    "access": ["READ"]
+  },
+  {
+    "name": "Inez Huynh",
+    "username": "ihuynh",
+    "access": ["READ"]
+  },
+  {
+    "name": "Barry Little",
+    "username": "blittle",
+    "access": ["READ"]
+  },
+  {
+    "name": "Viktor Robertson",
+    "username": "vrobertson",
+    "access": ["READ"]
+  },
+  {
+    "name": "Marian Sykes",
+    "username": "msykes",
+    "access": ["READ", "WRITE"]
+  },
+  {
+    "name": "Tayyib Weir",
+    "username": "tweir",
+    "access": ["READ", "WRITE"]
+  },
+  {
+    "name": "Timur Rich",
+    "username": "trich",
+    "access": ["READ", "WRITE"]
+  },
+  {
+    "name": "Rehan Briggs",
+    "username": "rbriggs",
+    "access": ["READ", "WRITE"]
+  },
+  {
+    "name": "Indi Underwood",
+    "username": "iunderwood",
+    "access": ["READ", "WRITE"]
+  },
+  {
+    "name": "Mike Sawyer",
+    "username": "msawyer",
+    "access": ["READ", "WRITE"]
+  },
+  {
+    "name": "Eman Foley",
+    "username": "efoley",
+    "access": ["READ", "WRITE"]
+  },
+  {
+    "name": "Kloe Moran",
+    "username": "kmoran",
+    "access": ["READ", "WRITE"]
+  },
+  {
+    "name": "Kiyan Stott",
+    "username": "kstott",
+    "access": ["READ", "WRITE"]
+  },
+  {
+    "name": "Demi Hodges",
+    "username": "dhodges",
+    "access": ["READ", "WRITE"]
+  },
+  {
+    "name": "Chyna Jacobson",
+    "username": "cjacobson",
+    "access": ["READ", "WRITE"]
+  },
+  {
+    "name": "Ariyan Barry",
+    "username": "abarry",
+    "access": ["READ", "WRITE"]
+  },
+  {
+    "name": "Joel Blackwell",
+    "username": "jblackwell",
+    "access": ["READ", "WRITE"]
+  },
+  {
+    "name": "Nelson Pitts",
+    "username": "npitts",
+    "access": ["READ", "WRITE"]
+  },
+  {
+    "name": "Szymon Alvarez",
+    "username": "salvarez",
+    "access": ["READ", "WRITE"]
+  },
+  {
+    "name": "Alicja Ventura",
+    "username": "aventura",
+    "access": ["READ", "WRITE"]
+  },
+  {
+    "name": "Josephine Sherman",
+    "username": "jsherman",
+    "access": ["READ", "WRITE"]
+  },
+  {
+    "name": "Greyson Benson",
+    "username": "gbenson",
+    "access": ["READ", "WRITE"]
+  },
+  {
+    "name": "Faith Tang",
+    "username": "ftang",
+    "access": ["READ", "WRITE", "ADMIN"]
+  },
+  {
+    "name": "Zakariah Tyson",
+    "username": "ztyson",
+    "access": ["READ", "WRITE", "ADMIN"]
+  },
+  {
+    "name": "Warwick Hewitt",
+    "username": "whewitt",
+    "access": ["READ", "WRITE", "ADMIN"]
+  },
+  {
+    "name": "Jannah Yoder",
+    "username": "jyoder",
+    "access": ["READ", "WRITE", "ADMIN"]
+  }
+]
