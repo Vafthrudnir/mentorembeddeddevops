@@ -1,13 +1,14 @@
 <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+<h2>REST-API exercise website</h2>
+<p>The website is up and running. You can query data from its REST API, where the following operations are supported. All <i>GET</i> requests will return the data in JSON format.</p>
 <div>
-	<h2>Exercise website</h2>
-	<p>The website is up and running. You can query data from its REST API, where the following operations are supported. All <i>GET</i> requests will return the data in JSON format.</p>
 	<h3>Get list of all users</h3>
+	<div class="description">
 	<p>Returns a list of all users with their usernames</p>
-	<table>
+	<table class="operation-table">
 		<tr>
-			<td>GET</td>
-			<td>/v1/users</td>
+			<td class="operation">GET</td>
+			<td class="endpoint">/v1/users</td>
 		</tr>
 	</table>
 	<h4>Parameters</h4>
@@ -23,19 +24,21 @@
 			<td>A description of the error</td>
 		</tr>
 	</table>
+	</div>
 	<h3>Get the access level of a user</h3>
+	<div class="description">
 	<p>Given a username returns that user's acces level on this site. Three authority values are possible: READ, WRITE, and ADMIN. All that applies will be returned.</p>
-	<table>
+	<table class="operation-table">
 		<tr>
-			<td>GET</td>
-			<td>/v1/accesslevels</td>
+			<td class="operation">GET</td>
+			<td class="endpoint">/v1/accesslevels</td>
 		</tr>
 	</table>
 	<h4>Parameters</h4>
 	<table>
 		<tr>
 			<td>username</td>
-			<td>Required. The username of the user to be queried as a String</td>
+			<td>Required. The username of the user as a String</td>
 		</tr>
 	</table>
 	<h4>Responses</h4>
@@ -49,4 +52,5 @@
 			<td>A description of the error</td>
 		</tr>
 	</table>
+	</div>
 </div>
