@@ -1,8 +1,10 @@
 # mentorembeddeddevops
 
-Repository for the source additional files and other stuff
+Repository for the tools needed for the tasks below.
 
 ## Tasks
+
+In case you're short on time feel free to submit partial solutions, they will be appreciated just as well.
 
 1. Download and run these docker images:
 	- [`mentorembeddeddevops/mysql-test:1.0`](https://hub.docker.com/r/mentorembeddeddevops/mysql-test) to act as the database for the rest of the tasks
