@@ -1,1 +1,1 @@
-docker run -d --name strava_parser -v /$(pwd)/save_data:/usr/src/app/save_data -p 80:5000 strava_parser
+docker run -d --name rest-api-test -p 80:5000 rest-api-test
