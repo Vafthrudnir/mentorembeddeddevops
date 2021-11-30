@@ -7,7 +7,7 @@ Repository for the source additional files and other stuff
 1. Download and run these docker images:
 	- [`mentorembeddeddevops/mysql-test:1.0`](https://hub.docker.com/r/mentorembeddeddevops/mysql-test) to act as the database for the rest of the tasks
 	- [`mentorembeddeddevops/rest-api-test:1.0`](https://hub.docker.com/r/mentorembeddeddevops/rest-api-test) which hosts a simple http server for the rest of the tasks
-2. Write a python 3 script that does the following:
+2. Write a python script (version 3.10 will be used later) that does the following:
 	- Queries the mysql database for employees working in the `Production` deparment, earning more than `100` (see [db schema](https://hub.docker.com/r/mentorembeddeddevops/mysql-test)). Recommended to use the `mysql-connector-python` package.
 	- Some of these employees are users of the site hosted by the container `rest-api-test`, with various access levels. Use the site's REST API to get the username of those among them who have `WRITE` access. See API documentation on the main page of the site. (note: some of the employees might not be users here at all)
 	- Write the results of the queries in a CSV file which has three columns:
