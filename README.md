@@ -20,6 +20,6 @@ Repository for the source additional files and other stuff
 	- Creates the docker network,
 	- builds your docker image based on the Dockerfile created previously,
 	- runs all three containers, connecting them to the same network (note: some time will be needed for the mysql-test container to start up, the python container will not be able to communicate with it during this time),
-	- stops the mysql-test and the tool-inventory-test containers once the python container finished running,
+	- stops the `mysql-test` and the `rest-api-test` containers once the python container finished running,
 	- deletes all containers (if not deleted automatically)
 5. Upload your work to a github repository
