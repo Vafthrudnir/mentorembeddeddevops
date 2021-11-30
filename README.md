@@ -15,11 +15,11 @@ Repository for the source additional files and other stuff
 		- `Birthday`
 		- `Username` (`N/A` if not a user of the site or doesn't have `WRITE` access)
 	- See [example output](https://github.com/Vafthrudnir/mentorembeddeddevops/blob/4b853ea82d773a00b59b90dbfece1c92a2a80108/output.csv) (note: csv dialect is not important now, feel free to leave it on defaults)
-3. Create a Dockerfile based on image [`python:3.10.0-bullseye`](https://hub.docker.com/_/python) that runs the script you wrote. Tip: A docker network shall be created to make communication between the three containers possible.
+3. Create a Dockerfile based on image [`python:3.10.0-bullseye`](https://hub.docker.com/_/python) that runs the script you wrote.
 4. Write a shell script that:
 	- Creates the docker network,
 	- builds your docker image based on the Dockerfile created previously,
-	- runs all three containers, connecting them to the same network,
+	- runs all three containers, connecting them to the same network (note: some time will be needed for the mysql-test container to start up, the python container will not be able to communicate with it during this time),
 	- stops the mysql-test and the tool-inventory-test containers once the python container finished running,
 	- deletes all containers (if not deleted automatically)
 5. Upload your work to a github repository
