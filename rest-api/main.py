@@ -1,5 +1,5 @@
 import json
-from flask import Flask, render_template, request
+from flask import Flask, render_template, request, send_from_directory
 
 app = Flask(__name__)
 
@@ -43,3 +43,9 @@ def api_access_levels():
     if not user_data:
         return 'User not found', 400
     return user_data
+
+
+@app.route('/sample/<path>.json')
+def user_sample_response(path):
+    with open(f'sample/{path}.json') as f:
+        return f.read()
