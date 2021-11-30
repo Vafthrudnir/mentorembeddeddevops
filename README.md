@@ -15,7 +15,7 @@ Repository for the source additional files and other stuff
 		- `Birthday`
 		- `Username` (`N/A` if not a user of the site or doesn't have `WRITE` access)
 	- See [example output](https://github.com/Vafthrudnir/mentorembeddeddevops/blob/4b853ea82d773a00b59b90dbfece1c92a2a80108/output.csv) (note: csv dialect is not important now, feel free to leave it on defaults)
-3. Create a Dockerfile based on image [`python:3.10.0-bullseye`](https://hub.docker.com/_/python) that runs the script you wrote.
+3. Create a Dockerfile based on image [`python:3.10.0-bullseye`](https://hub.docker.com/_/python) that runs the script you wrote. Tip: A docker network shall be created to make communication between the three containers possible.
 4. Write a shell script that:
 	- Creates the docker network,
 	- builds your docker image based on the Dockerfile created previously,
