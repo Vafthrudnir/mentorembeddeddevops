@@ -1,6 +1,6 @@
 # mentorembeddeddevops
 
-Repository for the tools needed for the tasks below.
+Repository for the tools needed for the tasks below. Directly none of these shall be used for the solution of the exercise.
 
 ## Tasks
 
